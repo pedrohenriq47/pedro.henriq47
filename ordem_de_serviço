@@ -1,0 +1,11 @@
+Descrição do Projeto
+
+Sistema de Ordem de Serviço
+Este projeto representa a modelagem de um banco de dados relacional para um sistema de controle de ordens de serviço. O objetivo é estruturar um modelo eficiente que permita registrar solicitações feitas por clientes, a análise técnica realizada por responsáveis e a geração de ordens de serviço a partir desses pedidos.
+
+O projeto foi desenvolvido como parte dos meus estudos em modelagem de dados, utilizando o modelo Entidade-Relacionamento (ER) para mapear as principais entidades do sistema, seus atributos e os relacionamentos entre elas.
+
+O DER foi elaborado com foco em boas práticas de organização e normalização, e está disponível neste repositório como imagem de referência.
+
+Link do projeto original no Google Drive:
+https://drive.google.com/file/d/1vbbXGVnf2gZtKXscHK8-bEAbIw70VyDs/view?usp=drive_link
