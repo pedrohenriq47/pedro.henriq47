@@ -1,0 +1,44 @@
+# Sistema de Ordem de Serviço
+
+Este projeto representa um modelo de banco de dados relacional para um **Sistema de Ordem de Serviço**. O objetivo é gerenciar os pedidos realizados por clientes, suas análises por responsáveis técnicos e a geração das ordens de serviço correspondentes.
+
+## Diagrama Entidade-Relacionamento (DER)
+
+O sistema é composto por seis entidades principais:
+
+- **Cliente**: Armazena informações pessoais do cliente.
+- **Pedido**: Registro da solicitação feita pelo cliente.
+- **Responsável**: Representa o atendente ou técnico que realiza a análise do pedido.
+- **Análise de Pedido**: Registro da análise feita por um responsável em um pedido.
+- **Ordem de Serviço**: Documento gerado a partir de um pedido analisado e liberado.
+- **Relacionamentos**: Várias relações entre as tabelas, com cardinalidades e chaves estrangeiras apropriadas.
+
+> O DER está disponível na imagem `IMG_5677.png` incluída neste repositório.
+
+## Relacionamentos
+
+- Um **cliente** pode fazer vários **pedidos**.
+- Um **pedido** pode ser analisado por um ou mais **responsáveis**.
+- Cada **pedido** pode gerar uma ou mais **ordens de serviço**, caso seja aprovado/liberado.
+- A **ordem de serviço** está associada diretamente ao pedido e ao cliente correspondente.
+
+## Tecnologias e Ferramentas
+
+- Modelagem realizada com ferramenta de diagramação de banco de dados.
+- Banco de dados relacional (sugestão: MySQL, PostgreSQL, etc.).
+
+## Possíveis Melhorias Futuras
+
+- Criação de scripts SQL para gerar as tabelas.
+- Desenvolvimento de uma interface web ou API para interação com o sistema.
+- Implementação de autenticação e controle de acesso para diferentes níveis de usuários.
+
+## Como contribuir
+
+1. Faça um fork deste repositório.
+2. Crie sua branch (`git checkout -b nova-funcionalidade`).
+3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`).
+4. Push para a branch (`git push origin nova-funcionalidade`).
+5. Abra um Pull Request.
+
+---
